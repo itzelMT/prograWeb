@@ -4,7 +4,7 @@
     Author     : itzel
 --%>
 
-             
+    <link rel="stylesheet" href="css/menu.css">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="index.jsp">
       <img src="resources/papw_logo_kawaiiposting.png" width="80">

@@ -22,9 +22,9 @@
         <title>KAWAII POSTING | Registro</title>
     </head>
     <body>
-       <jsp:include page="menu.jsp" />
+       <jsp:include page="menu2.jsp" />
        
-         <video class="video"  controls autoplay loop muted>
+         <video class="video"  autoplay loop>
             <source  src ="resources/br2.mp4" type = "video/mp4"/>
         </video>
        <div class="container">

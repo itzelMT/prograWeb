@@ -54,3 +54,7 @@ and open the template in the editor.
 .container a {
     color: #ffe564!important;
 }
+
+video::-webkit-media-controls {
+  display: none;
+}

@@ -21,16 +21,13 @@
         <%--<a href="inicio.html"><img src="resources/kawaiiPosting-logo.png" width="80" height="80"></a>--%>
   <header class="header">
        
-<jsp:include page="menu.jsp" />
-      <video class="video"  controls autoplay loop>
+<jsp:include page="menu2.jsp" />
+      <video  autoplay loop muted id="videoIndex">
             <source  src ="resources/intro-KawaiiPosting.mp4" type = "video/mp4"/>
         </video>
   </header>
-    
-  <div> 
-      <h1> holis kjsdhkjsdh</h1>
-  </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>

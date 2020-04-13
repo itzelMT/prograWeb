@@ -23,9 +23,9 @@
 
     <body background="img/istockphoto-1031313700-1024x1024.jpg">
         <!--navbar-->
-         <jsp:include page="menu.jsp" />
+         <jsp:include page="menu2.jsp" />
        
-         <video class="video"  controls autoplay loop muted>
+         <video class="video"  autoplay loop muted>
             <source  src ="resources/br3.mp4" type = "video/mp4"/>
         </video>
         <div class="container">

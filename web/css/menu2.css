@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/03/2020, 09:49:36 PM
+    Author     : itzel
+*/
+body{
+    margin: 0;
+    font-family: 'Fredoka One';
+    font-size: large;
+
+}
+header{
+    width: 100%;
+
+}
+
+ul, ol{
+    list-style: none;
+}
+#icon-menu{
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+}
+
+header label:hover{
+    cursor: pointer;
+
+}
+
+.navbarShidori > ul{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+}
+.navbarShidori a{
+    display: block;
+    color: white; 
+    padding: 10px 20px; 
+
+    text-decoration: none;
+}
+.containerBuscar{
+    background: #8e93d6ad;
+    padding:0;
+    border-radius: 10px;
+    display: flex;
+    position:absolute;
+    right: 40px;
+
+}
+
+
+#inputBuscar{
+    font-family: Karla;
+    background: buttonface;
+    padding: 10px;
+    border-radius: 10px;
+    color:gray;
+    border:0;
+    outline: none;
+    width: 400px;
+    margin: 10px 0px 10px 10px;
+}
+
+#inputBuscarButton{
+
+    width: 40px;
+    height: 40px;
+    margin: 15px 10px 10px 10px;
+    outline: none;
+
+}
+
+
+
+.navbarShidori li ul {
+    display:none;
+    padding: 0px;
+    position:absolute;
+    min-width: 140px;
+
+}
+
+
+
+.navbarShidori li:hover > ul{
+    display:block;
+}
+
+#inputBuscar:focus{
+    background:bisque;
+
+}
+
+@media(max-width:768px){
+    header label{
+        display:block;
+    }
+
+    .navbarShidori{
+        position: absolute;
+        width:50%;
+        margin-left:-50%;
+        transition: all 0.5s;
+    }
+
+    .navbarShidori ul{
+        flex-direction:column;
+
+    }
+
+    .navbarShidori li{
+        background: #68c3c37d;
+        border-top: 1px solid white;
+
+    }
+
+    #icon-menu:checked ~ .navbarShidori{
+        margin:0;
+        width: 50%;
+    }
+    .navbarShidori a{
+
+    }
+    .navbarShidori a:hover{
+        background: #ffaea0;
+        text-decoration: none;
+    }
+    .navbarShidori li ul   {
+        position:relative;
+        padding: 0px;
+
+    }
+    .navbarShidori li ul li{
+
+        background: #7667b3b8;
+    }
+ .navbarShidori li ul li a:hover{
+        background: #c98dfb;
+      
+        text-decoration: none;
+     
+    }
+    .containerBuscar{
+        position: absolute;
+        float:left;
+        left: 0px;   
+        width: 100%;
+    }
+    #inputBuscar{
+        width: 100%;
+        height: 30%;
+    }
+    #inputBuscarButton{
+        margin-top: 10px ;
+    }
+
+}
+
+@media  (min-width: 768px){
+    .navbarShidoriItem1:hover{
+        color: #ffa6a6; 
+        border-bottom: 3px solid #ffa6a6;
+        /*text-shadow: 2px 2px #ffaea0;*/
+        text-decoration: none;
+    }
+    .navbarShidoriItem2:hover{
+        color: #94e3dd; 
+        border-bottom: 3px solid #94e3dd;
+        /*text-shadow: 2px 2px #ffaea0;*/
+        text-decoration: none;
+    }
+    .navbarShidoriItem3:hover{
+        color: #aaffa6; 
+        border-bottom: 3px solid #aaffa6;
+        /*text-shadow: 2px 2px #ffaea0;*/
+        text-decoration: none;
+    }
+    .navbarShidoriItem4:hover{
+        color: #afbdfa; 
+        border-bottom: 3px solid #afbdfa;
+        /*text-shadow: 2px 2px #ffaea0;*/
+        text-decoration: none;
+    }
+    .navbarShidori li ul li a:hover{
+        background: #ffaea0;
+        text-decoration: none;
+        border-top: 3px solid white;
+        border-bottom:  3px solid white;
+    }
+
+    .navbarShidori li ul li a{
+
+        background: #68c3c37d;
+        border-top: 1px solid white;
+    }
+}
